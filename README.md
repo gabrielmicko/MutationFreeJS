@@ -15,14 +15,14 @@ copyAnArray([1, 2, 3]);
 //[1,2,3]
 ```
 
-##### Splice from array
+##### Splice from Array
 ```js
 const splice = (items, start, deleteCount, ...newItems) => {
 	return [
 		...items.slice(0, start), 
 		...newItems, 
 		...items.slice(start + deleteCount)
-    ];
+	];
 }
 
 splice([1, 12, 13, 14, 5], 1, 3, 2, 3, 4)
@@ -75,8 +75,8 @@ unshift([2, 4, 3, 5], 1)
 
 ##### Removing the last element from an Array (Pop)
 ```js
-function pop(items){
-  return items.slice(0, -1)     
+const pop = (items) => {
+	return items.slice(0, -1)     
 }
 
 pop([1, 2, 4, 3, 5, 6])
@@ -84,16 +84,6 @@ pop([1, 2, 4, 3, 5, 6])
 ```
 
 ##### Adding one element to an Array (Push)
-  ```js
-const push = (list, element) => {
-	return [...list, element];
-}
-
-push([1, 2, 3], 4);
-//[1,2,3,4] 
-```
-
-##### Filtering elements in an Array (Filter)
   ```js
 const push = (list, element) => {
 	return [...list, element];
