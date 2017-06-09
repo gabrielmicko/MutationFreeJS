@@ -5,6 +5,10 @@ All updates return new values, but internally structures are shared to drastical
 
 ref: [Using immutable data structures](http://jlongster.com/Using-Immutable-Data-Structures-in-JavaScript#Immutable.js)
 
+### Description
+This comes handy when writing reducers for applications using Redux or other state manager frameworks which suggest you to use immutable functions. The following examples are written using ES6-7 syntax.
+
+
 ##### Copy an array
 ```js
 const copyAnArray = (items) => {
@@ -38,8 +42,6 @@ const reverse = (items) => {
 reverse([1, 2, 4, 3, 5])
 //[5,3,4,2,1] 
 ```
-
-
 
 ##### Sort
 ```js
