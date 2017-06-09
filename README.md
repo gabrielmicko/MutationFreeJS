@@ -1,4 +1,4 @@
-## Describing how to manipulate object or array in an immmutable way 
+## Describing how to manipulate object or array in an immutable way 
 
 ##### Adding one element to an Array
   ```js
@@ -68,3 +68,5 @@
 	});
 }
 ```
+
+Comments or issues are welcome
